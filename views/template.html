@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 移动端viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 模态窗体 -->
+
+    <!-- 模板内css -->
+    <link rel="stylesheet" href="stylesheets/template.css">
+    
+    <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <!-- block header 可以考虑不要 -->
+    {% block header %} {% endblock %}
+</head>
+<body>
+    {% block body %} {% endblock %}
+    
+    <!-- 以下不要再写东西 -->
+    {% block footer %} 
+        <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    {% endblock %}
+</body>
+</html>

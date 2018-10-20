@@ -1,0 +1,9 @@
+/* 顶层模板中css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    border: solid 1px red;
+}
