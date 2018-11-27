@@ -67,6 +67,7 @@ module.exports = {
         "keyword-spacing": "error",
         /* 单行最大长度,tab个数 */
         "max-len": ["error", 80, 4],
+        // 
         /* 不允许空格和tab混合使用 */
         "no-mixed-operators": "error",
         /* 不允许多个空行 */
@@ -91,3 +92,4 @@ module.exports = {
         "no-undef": "off"
     }
 };
+
